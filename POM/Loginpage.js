@@ -7,8 +7,9 @@ class Loginpage {
         this.loginbtn = '[onclick="logIn()"]'
 
     }
-    async VisitPage() {
-        await this.page.goto("https://www.demoblaze.com/")
+    async VisitPage(url) {
+
+        await this.page.goto(url)
     
     }
     async login(username, password) {

@@ -12,6 +12,7 @@ expect:{
 reporter: 'html',
   
 use:{
+  baseURL:'https://www.demoblaze.com/',
 browserName:"chromium",
 headless:false,
 // trace:"on"
